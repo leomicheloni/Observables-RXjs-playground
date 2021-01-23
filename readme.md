@@ -315,10 +315,3 @@ document.querySelector("#stopButton")?.addEventListener("click", ()=>{
 })
 ```
 
-## "Real world" examples:
-
-### Create "something" to add to your observables so you can log them.
-
-
-https://indepth.dev/posts/1222/create-a-taponce-custom-rxjs-operator
-https://fireship.io/lessons/custom-rxjs-operators-by-example/
