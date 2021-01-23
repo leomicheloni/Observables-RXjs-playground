@@ -1,0 +1,20 @@
+{
+    "name": "observables",
+    "version": "0.0.1",
+    "scripts": {
+        "start": "npm run serve",
+        "build": "webpack --mode development",
+        "watch": "webpack --watch",
+        "serve": "webpack-dev-server --port 4040 --mode development"
+    },
+    "devDependencies": {
+        "ts-loader": "^8.0.3",
+        "typescript": "^4.0.2",
+        "webpack": "^4.44.1",
+        "webpack-cli": "^3.3.12",
+        "webpack-dev-server": "^3.11.0"
+    },
+    "dependencies": {
+        "rxjs": "^6.6.3"
+    }
+}
